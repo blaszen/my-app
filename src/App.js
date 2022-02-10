@@ -1,16 +1,22 @@
 import { Container } from "@mui/material";
 
 import Header from "./components/Header";
+import About from "./components/main/About";
 import Hero from "./components/main/Hero";
 
 
 function App() {
   return (
-    <div style={{}}>
-      
+    <div>
+      <Container>
       <Header/>
 
+
+
+      </Container>
       <Hero/>
+
+      <About/>
       
       
      
